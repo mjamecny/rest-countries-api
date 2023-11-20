@@ -6,7 +6,7 @@ export default function AppLayout() {
   return (
     <div className="grid grid-cols-1 grid-rows-[80px_1fr]">
       <Header />
-      <main className="px-1.6 bg-veryLightGray max-w-[1200px]">
+      <main className="px-1.6 py-4.8 bg-veryLightGray dark:bg-veryDarkBlue">
         <Outlet />
       </main>
     </div>
