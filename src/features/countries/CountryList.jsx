@@ -1,13 +1,10 @@
 import { useEffect, useState } from "react"
 
-import { useCountries } from "../../hooks/useCountries"
-
 import CountryItem from "./CountryItem"
 
 export default function CountryList({ region }) {
   const [countries, setCountries] = useState([])
   const [isLoading, setIsLoading] = useState(false)
-  // const { data, isLoading, error } = useCountries("europe")
 
   useEffect(() => {
     async function fetchCountries() {
