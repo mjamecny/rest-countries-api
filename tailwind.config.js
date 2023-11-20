@@ -45,5 +45,6 @@ export default {
       white: "hsl(0, 0%, 100%)",
     },
   },
+  darkMode: "class",
   plugins: [],
 }
